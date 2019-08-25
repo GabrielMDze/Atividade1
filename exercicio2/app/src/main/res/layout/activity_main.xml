@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30sp"
+        android:text="LANÇADOR DE DADOS!!!"/>
+
+    <EditText
+        android:id="@+id/Dice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:hint="Quantos dados deseja lançar?"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/TSides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+
+    <SeekBar
+        android:id="@+id/SSides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:max="21"
+        android:min="2"
+        android:progress="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-56sp"
+        android:layout_marginLeft="30sp"
+        android:textSize="20sp"
+        android:text="Lados do dado: "/>
+
+    <TextView
+        android:id="@+id/Res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:text="aaaaaaaa"/>
+
+</LinearLayout>

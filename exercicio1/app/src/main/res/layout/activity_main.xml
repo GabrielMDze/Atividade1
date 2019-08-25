@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="Calculadora de médias!!"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/Score1"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 1"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/Total1"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso da prova 1 (para média ponderada)"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/Score2"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 2"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/Total2"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso da prova 2 (para média ponderada)"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/Score3"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 3"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/Total3"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso da prova 3 (para média ponderada)"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"/>
+
+    <CheckBox
+        android:id="@+id/Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Média Ponderada" />
+
+    <TextView
+        android:id="@+id/TMedia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
